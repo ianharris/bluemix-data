@@ -74,10 +74,10 @@ public class BluemixData extends Activity {
 
         // initialise Bluemix
         Log.i("BMT","Initialising Bluemix");
-        IBMBluemix.initialize(this,                           // context
-                "f4195dc1-a7e4-4e6d-a729-c731dac21732",       // applicationId
-                "47c98a21b112eef5d193ec1efa183850d4b9a6b8",   // applicationSecret
-                "golgitest.mybluemix.net");                   // applicationRoute
+        IBMBluemix.initialize(this,         // context
+                "MY_APPLICATION_ID",        // applicationId
+                "MY_APPLICATION_SECRET",    // applicationSecret
+                "MY_APPLICATION_ROUTE");    // applicationRoute
 
         Log.i("BMT","Initialising IBM Data");
         IBMData.initializeService();
